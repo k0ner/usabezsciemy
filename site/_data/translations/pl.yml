@@ -1,0 +1,9 @@
+next_post: "Kolejny wpis"
+
+navigation:
+  home: "Strona główna"
+  projects: "Projekty"
+  blog: "Blog"
+  pages: "Strony"
+  about: "O nas"
+  elements: "Elementy"

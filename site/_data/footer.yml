@@ -1,14 +1,14 @@
 footer_menu__settings:
   menu__items:
-    - title: 'Home'
+    - title: navigation.home
       url: '/'
-    - title: 'Projects'
+    - title: navigation.projects
       url: '/projects/'
-    - title: 'Elements'
+    - title: navigation.elements
       url: '/elements/'
-    - title: 'About'
+    - title: navigation.about
       url: '/about/'
-    - title: 'Blog'
+    - title: navigation.blog
       url: '/blog/'
 
 copyright_text_html: >-

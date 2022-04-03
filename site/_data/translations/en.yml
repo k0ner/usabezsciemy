@@ -1,0 +1,9 @@
+next_post: "Next post"
+
+navigation:
+  home: "Home"
+  projects: "Project"
+  blog: "Blog"
+  pages: "Pages"
+  about: "About"
+  elements: "Elements"
