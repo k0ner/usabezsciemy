@@ -102,3 +102,6 @@ tag_page_layout: tag_page
 tag_permalink_style: /:title
 
 newsletter_identifier: "hello"
+contact:
+  submission_email: "no-reply@youremail.com"
+  success_page: "/contact-success"
