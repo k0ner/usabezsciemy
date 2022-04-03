@@ -15,4 +15,10 @@ navigation:
   elements: "Elementy"
 
 contact:
+  page_title: "Kontakt"
   form_title: "Skontaktuj się z nami!"
+  form_description: "Jeśli masz pytania - napisz do nas!"
+  form_button: "Wyślij"
+  name: "Twoje Imię"
+  email: "Twój Email"
+  message: "Wpisz Wiadomość"
