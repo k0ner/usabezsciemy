@@ -12,3 +12,6 @@ navigation:
   pages: "Strony"
   about: "O nas"
   elements: "Elementy"
+
+contact:
+  form_title: "Skontaktuj się z nami!"

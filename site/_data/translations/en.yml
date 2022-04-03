@@ -12,3 +12,6 @@ navigation:
   pages: "Pages"
   about: "About"
   elements: "Elements"
+
+contact:
+  form_title: "Get in touch"
