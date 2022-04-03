@@ -1,3 +1,7 @@
+view_all: "Zobacz wszystkie"
+recent_posts: "Najnowsze posty"
+next_project: "Kolejny Projekt"
+
 post:
   prev: "Poprzedni post"
   next: "Kolejny post"
