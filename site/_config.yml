@@ -8,6 +8,9 @@ plugins:
   - jekyll-pagebreak
   - jekyll_picture_tag
   - jekyll-minifier
+  - jekyll-i18n-tags
+
+lang: pl
 
 jekyll-minifier:
   compress_javascript: false

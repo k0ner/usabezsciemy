@@ -9,4 +9,5 @@ group :jekyll_plugins do
   gem "jekyll-pagebreak", "~> 0.9.1"
   gem 'jekyll_picture_tag', '~> 2.0'
   gem 'jekyll-minifier'
+  gem 'jekyll-i18n-tags', :path => "./_plugins/jekyll-i18n-tags"
 end

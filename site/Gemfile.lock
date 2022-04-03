@@ -5,6 +5,11 @@ GIT
     jekyll-watch (2.2.1)
       listen (~> 3.0)
 
+PATH
+  remote: _plugins/jekyll-i18n-tags
+  specs:
+    jekyll-i18n-tags (0.0.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -116,6 +121,7 @@ PLATFORMS
 DEPENDENCIES
   cloudcannon-jekyll-bookshop (= 2.6.1)
   jekyll-bookshop (= 2.6.1)
+  jekyll-i18n-tags!
   jekyll-minifier
   jekyll-pagebreak (~> 0.9.1)
   jekyll-sitemap
