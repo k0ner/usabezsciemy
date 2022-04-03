@@ -22,3 +22,10 @@ contact:
   name: "Your Name"
   email: "Your Email"
   message: "Your Message"
+
+newsletter:
+  title: "Join my mailing list"
+  description: "Get inspiration, updates and, cool stuff!"
+  email: "Email address"
+  email_prompt: "Your email address"
+  button: "Subscribe"
