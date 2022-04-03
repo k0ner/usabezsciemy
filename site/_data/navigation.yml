@@ -8,6 +8,8 @@ menu__settings:
       url: '/projects/'
     - title: navigation.blog
       url: '/blog/'
+    - title: navigation.contact
+      url: '/contact/'
     - title: navigation.pages
       submenu:
       - url: '/about/'
