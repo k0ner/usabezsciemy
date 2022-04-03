@@ -95,7 +95,7 @@ tag_page_dir: tag
 tag_page_layout: tag_page
 tag_permalink_style: /:title
 
-newsletter_identifier: "hello"
+newsletter_identifier: "change_it"
 contact:
-  submission_email: "no-reply@youremail.com"
+  submission_email: "no-reply@usabezsciemy.pl"
   success_page: "/contact-success"
