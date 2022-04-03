@@ -3,6 +3,7 @@
 
 {% include head.html %}
 
+<!-- <body class="is-in stop-animations"> -->
 <body>
 
     {% if site.data.general_settings.google-analytics %}
@@ -13,8 +14,8 @@
 
     {{ content }}
 
-    <!-- 
-        Bookshop components are accessed using the bookshop tag, 
+    <!--
+        Bookshop components are accessed using the bookshop tag,
         using the same syntax as the standard Jekyll include tag.
     -->
     {% bookshop_include page content_blocks=page.content_blocks page_theme=page.page_theme %}
@@ -30,5 +31,13 @@
 
     <script src="/js/scripts.js"></script>
     <script src="/js/common.js"></script>
+    <script>
+        // Set the options globally
+        // to make LazyLoad self-initialize
+        window.lazyLoadOptions = {
+            // Your custom settings go here
+        };
+    </script>
+    <script async src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.6.1/dist/lazyload.min.js"></script>
 </body>
 </html>

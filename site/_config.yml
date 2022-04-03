@@ -6,6 +6,13 @@ plugins:
   - jekyll-sitemap
   - jekyll/tagging
   - jekyll-pagebreak
+  - jekyll_picture_tag
+  - jekyll-minifier
+
+jekyll-minifier:
+  compress_javascript: false
+  uglifier_args:
+    harmony: true
 
 # Multiple bookshops can be used on one website,
 # or different production / staging locations.
