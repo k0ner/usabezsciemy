@@ -4,8 +4,8 @@ menu__settings:
   menu__items:
     - title: navigation.home
       url: '/'
-    - title: navigation.projects
-      url: '/projects/'
+    - title: navigation.podcast
+      url: '/podcast/'
     - title: navigation.blog
       url: '/blog/'
     - title: navigation.contact
