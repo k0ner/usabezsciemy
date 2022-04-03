@@ -1,4 +1,9 @@
-next_post: "Kolejny wpis"
+post:
+  prev: "Poprzedni post"
+  next: "Kolejny post"
+  share: "Udostępnij ten post"
+  related: "Sprawdź podobne posty"
+  see_all: "Zobacz wszystkie"
 
 navigation:
   home: "Strona główna"
