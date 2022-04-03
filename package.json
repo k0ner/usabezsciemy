@@ -6,9 +6,10 @@
     "bookshop-hosted": "bookshop-browser -b ./components -o site/js/bookshop-hosted.js",
     "bookshop-live": "bookshop-live -b ./components -o site/_cloudcannon/bookshop-live.js",
     "jekyll": "BUNDLE_GEMFILE=site/Gemfile bundle exec jekyll serve --source site --port 6060 --trace --unpublished",
+    "jekyll-build": "BUNDLE_GEMFILE=site/Gemfile bundle exec jekyll build --source site",
     "start": "run-p bookshop-dev jekyll",
     "install-jekyll": "BUNDLE_GEMFILE=site/Gemfile bundle install",
-    "gh-pages": "gh-pages -d site/_site -b docs"
+    "gh-pages": "gh-pages -d _site -b docs"
   },
   "repository": {
     "type": "git",
