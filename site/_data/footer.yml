@@ -2,14 +2,16 @@ footer_menu__settings:
   menu__items:
     - title: navigation.home
       url: '/'
-    - title: navigation.projects
-      url: '/projects/'
-    - title: navigation.elements
-      url: '/elements/'
-    - title: navigation.about
-      url: '/about/'
     - title: navigation.blog
       url: '/blog/'
+    - title: navigation.podcast
+      url: '/podcast/'
+    - title: navigation.projects
+      url: '/projects/'
+    - title: navigation.about
+      url: '/about/'
+    - title: navigation.newsletter
+      url: '/newsletter/'
 
 copyright_text_html: >-
   <p> 2021 &copy; <a href="/">Vonge</a>. Template by <a href="https://cloudcannon.com/">CloudCannon</a>.</p>

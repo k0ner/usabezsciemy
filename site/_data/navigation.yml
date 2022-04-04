@@ -8,13 +8,13 @@ menu__settings:
       url: '/podcast/'
     - title: navigation.blog
       url: '/blog/'
-    - title: navigation.contact
-      url: '/contact/'
+    - title: navigation.about
+      url: '/about/'
     - title: navigation.pages
       submenu:
-      - url: '/about/'
-        title: navigation.about
-      - url: '/elements/'
-        title: navigation.elements
-      - url: '/newsletter/'
-        title: navigation.newsletter
+        - title: navigation.projects
+          url: '/projects/'
+        - title: navigation.contact
+          url: '/contact/'
+        - title: navigation.newsletter
+          url: '/newsletter/'
