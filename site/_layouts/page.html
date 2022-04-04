@@ -16,4 +16,10 @@ layout: default
 
 </div>
 
+{% if page.include-contact-form %}
+{% bookshop contact-form %}
+{% endif %}
+
+{% if page.include-newsletter %}
 {% bookshop newsletter %}
+{% endif %}
