@@ -33,3 +33,9 @@ newsletter:
   email: "Email address"
   email_prompt: "Your email address"
   button: "Subscribe"
+
+pagination:
+  prev: "Prev"
+  next: "Next"
+  page: "Page"
+  page_of: "of"

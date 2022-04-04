@@ -34,3 +34,8 @@ newsletter:
   email_prompt: "Twój adres email"
   button: "Zapisz się"
 
+pagination:
+  prev: "Poprzednia"
+  next: "Kolejna"
+  page: "Strona"
+  page_of: "z"
