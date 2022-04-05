@@ -62,10 +62,10 @@
 	margin: 0 auto;
 }
 
-.post-tags {
+.post-tags, .tags-box {
 	display: flex;
 	
-	.post-tags__tag {
+	.post-tags__tag, .tag {
 		position: relative;
 		z-index: 1;
 		display: inline-block;
