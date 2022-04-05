@@ -1,5 +1,6 @@
 ---
 date:   2018-11-06 15:01:35 +0300
+author: Vanessa
 title:  You must be the change you wish to see in the world
 description: Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward.
 tags:   [lifestyle, rest]

@@ -1,5 +1,6 @@
 ---
 date: 2018-11-12 12:01:35
+author: Bob
 title: Do what you can, with what you have, where you are
 description: >-
   Bring to the table win-win survival strategies to ensure proactive domination.

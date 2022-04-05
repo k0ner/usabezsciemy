@@ -1,5 +1,6 @@
 ---
 date: 2018-11-13 12:01:35
+author: Bob
 title: That which does not kill us makes us stronger
 description: >-
   Bring to the table win-win survival strategies to ensure proactive domination.

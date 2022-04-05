@@ -1,5 +1,6 @@
 ---
 date: 2018-11-11 12:01:35
+author: Bob
 title: Strive not to be a success, but rather to be of value
 description: >-
   Bring to the table win-win survival strategies to ensure proactive domination.

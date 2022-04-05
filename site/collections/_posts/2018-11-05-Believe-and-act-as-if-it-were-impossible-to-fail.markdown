@@ -1,5 +1,6 @@
 ---
 date:   2018-11-05 15:01:35 +0300
+author: Vanessa
 title:  Believe and act as if it were impossible to fail
 description: Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward.
 tags:   [travel, lifestyle]

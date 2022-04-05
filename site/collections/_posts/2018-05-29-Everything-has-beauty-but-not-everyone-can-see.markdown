@@ -1,5 +1,6 @@
 ---
 title:  Everything has beauty, but not everyone can see
+author: Vanessa
 date:   2018-05-29 18:05:55 +0300
 image:  '/images/post-8.jpg'
 tags:   [travel, rest]

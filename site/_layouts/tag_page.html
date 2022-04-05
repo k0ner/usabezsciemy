@@ -43,10 +43,10 @@ layout: default
 
                 <div class="article__meta">
                   <div class="article__author-image">
-                    {% picture {{ site.data.author.author_image }} --alt {{ site.data.author.author_name }} %}
+                    {% picture {{ site.data.authors[post.author].author_image }} --alt {{ site.data.authors[post.author].author_name }} %}
                   </div>
                   <div class="article-info">
-                    <div class="article__author-name">{{ site.data.author.author_name }}</div>
+                    <div class="article__author-name">{{ site.data.authors[post.author].author_name }}</div>
                     <span class="article__date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time></span>
                   </div>
                 </div>
