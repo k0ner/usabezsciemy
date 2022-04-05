@@ -79,7 +79,7 @@ document.addEventListener("DOMContentLoaded", function () {
   /* ============================
   // Smooth scrolling to section
   ============================ */
-  document.querySelectorAll(".works-button").forEach(anchor => {
+  document.querySelectorAll(".works-button, .cta-button").forEach(anchor => {
     anchor.addEventListener("click", function (e) {
       e.preventDefault();
 
