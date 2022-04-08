@@ -17,6 +17,7 @@ navigation:
   pages: "Pages"
   about: "About"
   elements: "Elements"
+  newsletter: "Newsletter"
 
 contact:
   page_title: "Contact"

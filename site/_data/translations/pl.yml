@@ -17,6 +17,7 @@ navigation:
   pages: "Strony"
   about: "O nas"
   elements: "Elementy"
+  newsletter: "Newsletter"
 
 contact:
   page_title: "Kontakt"

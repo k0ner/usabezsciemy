@@ -16,3 +16,5 @@ menu__settings:
         title: navigation.about
       - url: '/elements/'
         title: navigation.elements
+      - url: '/newsletter/'
+        title: navigation.newsletter
