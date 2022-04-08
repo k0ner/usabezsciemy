@@ -31,7 +31,6 @@ contact:
 newsletter:
   title: "Dołącz do naszego newslettera!"
   description: "Bądź na bierząco z nowościami!"
-  email: "Adres Email"
   email_prompt: "Twój adres email"
   button: "Zapisz się"
 

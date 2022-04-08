@@ -15,18 +15,19 @@
             method="POST">
             <input type="hidden" name="_to" value="{{ include.form_submission_email | default: site.contact.submission_email }}">
             <div class="{{c}}__form-group">
-              <label class="{{c}}__form-label screen-reader-text" for="form-name">{% t contact.name %}</label>
-              <input class="{{c}}__form-input" id="form-name" type="text" name="name" placeholder="{% t contact.name %}..." required>
+              <label class="{{c}}__form-label screen-reader-text" id="name-label" for="form-name">{% t contact.name %}</label>
+              <input class="{{c}}__form-input" id="form-name" type="text" name="name"
+                     placeholder="{% t contact.name %}" aria-labelledby="name-label" required>
             </div>
             <div class="{{c}}__form-group">
-              <label class="{{c}}__form-label screen-reader-text" for="form-email">{% t contact.email %}</label>
-              <input class="{{c}}__form-input" id="form-email" type="email" name="_replyto" placeholder="{% t contact.email %}..."
-                required>
+              <label class="{{c}}__form-label screen-reader-text" id="email-label" for="form-email">{% t contact.email %}</label>
+              <input class="{{c}}__form-input" id="form-email" type="email" name="_replyto"
+                     placeholder="{% t contact.email %}" aria-labelledby="email-label" required>
             </div>
             <div class="{{c}}__form-group">
-              <label class="{{c}}__form-label screen-reader-text" for="form-text">{% t contact.message %}</label>
-              <textarea class="{{c}}__form-input" id="form-text" name="text" rows="9" placeholder="{% t contact.message %}..."
-                required></textarea>
+              <label class="{{c}}__form-label screen-reader-text" id="message-label" for="form-text">{% t contact.message %}</label>
+              <textarea class="{{c}}__form-input" id="form-text" name="text" rows="9"
+                        placeholder="{% t contact.message %}" aria-labelledby="message-label" required></textarea>
             </div>
             <div class="{{c}}__form-group {{c}}__form-group--button">
               <button class="c-button c-button--primary c-button--large" type="submit">{% t contact.form_button %}</button>
