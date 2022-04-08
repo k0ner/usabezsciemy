@@ -2,6 +2,6 @@ presets:
   default:
     markup: data_auto
     noscript: true
-    formats: ['webp', 'original']
+    formats: ['webp']
     attributes:
       img: 'class="lazy"'
