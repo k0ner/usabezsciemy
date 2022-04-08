@@ -11,7 +11,8 @@
     "add-netlify-url": "echo url: $URL >> site/_config.yml",
     "install-jekyll": "BUNDLE_GEMFILE=site/Gemfile bundle install",
     "build-jekyll": "BUNDLE_GEMFILE=site/Gemfile bundle exec jekyll build --source site",
-    "setup-service-worker": "workbox generateSW workbox-config.js"
+    "setup-service-worker": "workbox generateSW workbox-config.js",
+    "deploy": "run-s add-netlify-url install-jekyll build-jekyll setup-service-worker"
   },
   "repository": {
     "type": "git",

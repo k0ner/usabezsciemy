@@ -1,6 +1,6 @@
 [build]
   publish = "_site"
-  command = "npm run-p add-netlify-url install-jekyll build-jekyll setup-service-worker"
+  command = "npm run deploy"
 [build.environment]
   NODE_VERSION = "14.15.0"
   YARN_VERSION = "1.22.4"
