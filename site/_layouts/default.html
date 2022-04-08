@@ -40,9 +40,11 @@
             window.addEventListener('load', () => {
                 navigator.serviceWorker.register('/sw.js')
             })
-        };
+        }
     </script>
+    {% if site.testimonials and site.testimonials.size > 0 %}
     <script async src="/js/tiny-slider-2.9.3.min.js"></script>
+    {% endif %}
     <script async src="/js/lightense-1.0.17.min.js"></script>
     <script async src="/js/lazyload-17.6.1.min.js"></script>
 </body>
