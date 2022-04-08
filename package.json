@@ -1,6 +1,6 @@
 {
-  "name": "vonge-jekyll-bookshop-template",
-  "description": "Vonge template for CloudCannon",
+  "name": "jekyll-blog-system",
+  "description": "Jekyll blog system by k0ner based on CloudCanon Vongue",
   "scripts": {
     "bookshop-dev": "bookshop-browser -p 6086 -b ./components",
     "bookshop-hosted": "bookshop-browser -b ./components -o site/js/bookshop-hosted.js",
@@ -16,14 +16,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bglw/bookshop-example.git"
+    "url": "git+https://github.com/k0ner/jekyll-blog-system.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bglw/bookshop-example/issues"
+    "url": "https://github.com/k0ner/jekyll-blog-system/issues"
   },
-  "homepage": "https://github.com/bglw/bookshop-example#readme",
+  "homepage": "https://github.com/k0ner/jekyll-blog-system#readme",
   "devDependencies": {
     "@bookshop/browser": "3.0.0",
     "@bookshop/jekyll-engine": "3.0.0",
