@@ -36,6 +36,11 @@
         window.lazyLoadOptions = {
             // Your custom settings go here
         };
+        if('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/sw.js')
+            })
+        };
     </script>
     <script async src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.6.1/dist/lazyload.min.js"></script>
 </body>

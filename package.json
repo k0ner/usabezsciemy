@@ -6,10 +6,12 @@
     "bookshop-hosted": "bookshop-browser -b ./components -o site/js/bookshop-hosted.js",
     "bookshop-live": "bookshop-live -b ./components -o site/_cloudcannon/bookshop-live.js",
     "jekyll": "BUNDLE_GEMFILE=site/Gemfile bundle exec jekyll serve --source site --port 6060 --trace --unpublished",
-    "jekyll-build": "BUNDLE_GEMFILE=site/Gemfile bundle exec jekyll build --source site",
     "start": "run-p bookshop-dev jekyll",
+    "gh-pages": "gh-pages -d _site -b docs",
+    "add-netlify-url": "echo url: $URL >> site/_config.yml",
     "install-jekyll": "BUNDLE_GEMFILE=site/Gemfile bundle install",
-    "gh-pages": "gh-pages -d _site -b docs"
+    "build-jekyll": "BUNDLE_GEMFILE=site/Gemfile bundle exec jekyll build --source site",
+    "setup-service-worker": "workbox generateSW workbox-config.js"
   },
   "repository": {
     "type": "git",
@@ -28,6 +30,7 @@
     "npm-run-all": "^4.1.5"
   },
   "dependencies": {
-    "gh-pages": "^3.2.3"
+    "gh-pages": "^3.2.3",
+    "workbox-cli": "^6.5.2"
   }
 }
