@@ -14,9 +14,9 @@
           </div>
 
           <form class="{{c}}__form validate" action="//{{ include.newsletter_identifier | default: site.newsletter_identifier }}"
-            method="POST" id="membedded-subscribe-form" name="membedded-subscribe-form" target="_blank" novalidate>
+            method="POST" id="membedded-subscribe-form" name="membedded-subscribe-form" target="_blank">
             <label class="screen-reader-text" for="mce-EMAIL">{% t newsletter.email %}</label>
-            <input class="{{c}}__form-email required email" id="mce-EMAIL" type="text" name="EMAIL" placeholder="{% t newsletter.email_prompt %}">
+            <input class="{{c}}__form-email required email" id="mce-EMAIL" type="email" name="EMAIL" placeholder="{% t newsletter.email_prompt %}" required>
             <button class="c-button c-button--primary c-button--large" id="membedded-subscribe" type="submit" name="subscribe">{% t newsletter.button %}</button>
           </form>
 
