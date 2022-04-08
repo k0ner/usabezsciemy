@@ -58,24 +58,6 @@ document.addEventListener("DOMContentLoaded", function () {
   reframe(".post__content iframe:not(.reframe-off), .page__content iframe:not(.reframe-off)");
 
 
-  /* =======================
-  // Zoom Image
-  ======================= */
-  const lightense = document.querySelector(".page img, .post img"),
-  imageLink = document.querySelectorAll(".page a img, .post a img");
-
-  if (imageLink) {
-    for (var i = 0; i < imageLink.length; i++) imageLink[i].parentNode.classList.add("image-link");
-    for (var i = 0; i < imageLink.length; i++) imageLink[i].classList.add("no-lightense");
-  }
-
-  if (lightense) {
-    Lightense(".page img:not(.no-lightense), .post img:not(.no-lightense)", {
-    padding: 60,
-    offset: 30
-    });
-  }
-
   /* ============================
   // Smooth scrolling to section
   ============================ */
@@ -88,34 +70,6 @@ document.addEventListener("DOMContentLoaded", function () {
       });
     });
   });
-
-
-  /* ============================
-  // Testimonials Slider
-  ============================ */
-  if (document.querySelector(".my-slider")) {
-    var slider = tns({
-      container: ".my-slider",
-      items: 3,
-      slideBy: 1,
-      gutter: 20,
-      nav: false,
-      mouseDrag: true,
-      autoplay: false,
-      controlsContainer: "#customize-controls",
-      responsive: {
-        1024: {
-          items: 3,
-        },
-        768: {
-          items: 2,
-        },
-        0: {
-          items: 1,
-        }
-      }
-    });
-  }
 
 
   /* ============================
