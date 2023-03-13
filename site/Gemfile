@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 group :jekyll_plugins do
-  gem "jekyll-bookshop", "3.0.0"
+  gem "jekyll-bookshop", "3.4.0"
   gem 'jekyll-tagging'
   gem "jekyll-sitemap"
   gem "jekyll-pagebreak", "~> 0.9.1"
